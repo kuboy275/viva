@@ -1,0 +1,87 @@
+@media (min-width: 1200px) {
+  .home-page {
+    max-height: 100vh;
+    overflow: hidden; } }
+
+@media (min-width: 1200px) {
+  .home-page .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 100vh; } }
+
+@media (min-width: 1200px) {
+  .home-banner .carousel .carousel-inner .carousel-item {
+    height: 35vh;
+    max-height: 35vh; } }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .home-banner .carousel .carousel-inner .carousel-item {
+    height: 350px; } }
+
+.home-banner .carousel .carousel-inner .carousel-item img {
+  -o-object-fit: fill;
+  object-fit: fill;
+  height: 100%; }
+
+.home-banner .carousel .carousel-indicators {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-inline: auto;
+  border-radius: 10em;
+  padding: 8px 12px;
+  background-color: rgba(0, 0, 0, 0.9); }
+  .home-banner .carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border: 0;
+    border-radius: 50%; }
+
+.home-notication .box-noti {
+  background: var(--primary-color);
+  border-radius: 5px;
+  padding: 10px;
+  color: white; }
+
+@media (min-width: 1200px) {
+  .home-contact .contact-wrapper .contact-item {
+    all: unset;
+    width: 100%;
+    padding-inline: 10px; } }
+
+@media (max-width: 1200px) {
+  .home-contact .contact-wrapper .contact-item {
+    margin-bottom: 20px; } }
+
+.home-contact .contact-wrapper .contact-item a {
+  display: block;
+  background: var(--base-color);
+  padding: 20px 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  gap: 8px; }
+  .home-contact .contact-wrapper .contact-item a i {
+    font-size: 18px; }
+
+.home-brand .brand-slide .slick-arrow {
+  display: none !important; }
