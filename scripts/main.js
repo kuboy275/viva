@@ -1,1 +1,1 @@
-"use strict";$(document).ready(function(){$(".brand-slide").slick({infinite:!0,slidesToShow:3,slidesToScroll:3,responsive:[{breakpoint:575,settings:{slidesToShow:2}}]})});
+"use strict";$(document).ready(function(){$(".home-banner-wrapper").slick({infinite:!1,dots:!0,slidesToShow:1,slidesToScroll:1})});

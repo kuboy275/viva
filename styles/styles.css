@@ -12,11 +12,39 @@ html {
 body {
   font-family: var(--base-site-font); }
 
-.header .nav__logo img {
-  width: 80%; }
-
-.header .nav__login .btn {
-  width: 120px; }
+.header {
+  margin-block: 6px; }
+  .header .container-fluid {
+    padding-inline: 8px; }
+  .header .nav {
+    gap: 15px; }
+    .header .nav__logo img {
+      width: 140px;
+      height: 36px; }
+    @media (max-width: 576px) {
+      .header .nav__logo {
+        width: 135px;
+        margin-bottom: 0 !important; }
+        .header .nav__logo img {
+          width: 100%; } }
+    .header .nav__login .btn {
+      max-width: 120px;
+      height: 36px;
+      padding-inline: 12px;
+      font-size: 14px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      @media (max-width: 576px) {
+        .header .nav__login .btn {
+          line-height: 1.15;
+          font-size: 13px; } }
 
 footer {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.8)), to(rgba(24, 45, 78, 0.8))), url(../images/FooterBG.jpg);
