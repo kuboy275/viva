@@ -4,8 +4,8 @@
     display: none !important; }
   @media (min-width: 576px) {
     .home-banner .home-banner-wrapper .banner-item {
-      max-height: 450px;
-      height: 420px; }
+      max-height: 500px;
+      height: 500px; }
       .home-banner .home-banner-wrapper .banner-item a {
         height: 100%; }
         .home-banner .home-banner-wrapper .banner-item a img {
@@ -83,6 +83,9 @@
   -ms-flex-align: baseline;
   align-items: baseline;
   gap: 8px; }
+  @media (min-width: 1200px) {
+    .home-contact .contact-wrapper .contact-item a {
+      padding-block: 50px; } }
   .home-contact .contact-wrapper .contact-item a i {
     font-size: 18px; }
 
