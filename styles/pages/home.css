@@ -2,6 +2,14 @@
   background: var(--base-color); }
   .home-banner .home-banner-wrapper .slick-arrow {
     display: none !important; }
+  @media (min-width: 576px) {
+    .home-banner .home-banner-wrapper .banner-item {
+      max-height: 450px;
+      height: 420px; }
+      .home-banner .home-banner-wrapper .banner-item a {
+        height: 100%; }
+        .home-banner .home-banner-wrapper .banner-item a img {
+          height: 100%; } }
   .home-banner .home-banner-wrapper .slick-dots {
     position: absolute;
     display: -webkit-box !important;
