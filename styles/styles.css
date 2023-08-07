@@ -166,3 +166,102 @@ footer {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; } }
+
+@media (max-width: 992px) {
+  .transfer-page .transfer .container {
+    max-width: 100%; } }
+
+.transfer-page .transfer .box-title {
+  background: var(--primary-color);
+  border-radius: 5px;
+  padding: 20px 25px;
+  text-align: center; }
+  .transfer-page .transfer .box-title h2 {
+    color: white;
+    font-size: 22px; }
+  .transfer-page .transfer .box-title .line {
+    width: 100px;
+    height: 2px;
+    margin-inline: auto;
+    background: white; }
+
+.transfer-page .transfer .nav-pills {
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; }
+  .transfer-page .transfer .nav-pills .nav-item {
+    width: 50%; }
+    .transfer-page .transfer .nav-pills .nav-item .nav-link {
+      width: 100%;
+      background: none;
+      border-radius: 0;
+      color: var(--base-color);
+      padding-block: 10px 5px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 20px; }
+      .transfer-page .transfer .nav-pills .nav-item .nav-link.active {
+        border-bottom: 5px solid var(--primary-color); }
+      .transfer-page .transfer .nav-pills .nav-item .nav-link i {
+        font-size: 30px; }
+
+.transfer-page .transfer .tab-content form {
+  border-radius: 20px; }
+  .transfer-page .transfer .tab-content form .form-group .input-group {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    @media (max-width: 768px) {
+      .transfer-page .transfer .tab-content form .form-group .input-group {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        gap: 10px; }
+        .transfer-page .transfer .tab-content form .form-group .input-group .form-control {
+          width: 100%; } }
+    @media (max-width: 768px) and (max-width: 576px) {
+      .transfer-page .transfer .tab-content form .form-group .input-group .form-control {
+        margin-left: 0; } }
+    .transfer-page .transfer .tab-content form .form-group .input-group .input-group-prepend {
+      width: 25%; }
+      .transfer-page .transfer .tab-content form .form-group .input-group .input-group-prepend .input-group-text {
+        line-height: 1;
+        gap: 10px; }
+        .transfer-page .transfer .tab-content form .form-group .input-group .input-group-prepend .input-group-text span {
+          font-weight: 500; }
+    .transfer-page .transfer .tab-content form .form-group .input-group .copy-text-btn {
+      margin-left: 15px;
+      display: block;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      background: var(--base-color);
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      padding-inline: 10px; }
+      @media (max-width: 768px) {
+        .transfer-page .transfer .tab-content form .form-group .input-group .copy-text-btn {
+          margin-left: 10px;
+          height: auto;
+          padding-block: 10px;
+          line-height: 1; } }
+      @media (max-width: 576px) {
+        .transfer-page .transfer .tab-content form .form-group .input-group .copy-text-btn {
+          margin-left: 0; } }

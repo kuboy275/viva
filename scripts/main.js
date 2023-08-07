@@ -1,1 +1,1 @@
-"use strict";$(document).ready(function(){$(".home-banner-wrapper").slick({infinite:!1,dots:!0,slidesToShow:1,slidesToScroll:1})});
+"use strict";$(document).ready(function(){$(".home-banner-wrapper").slick({infinite:!1,dots:!0,slidesToShow:1,slidesToScroll:1}),$(".copy-text-btn").on("click",function(t){t.preventDefault();t=$(this).closest(".input-group").find("input.bank-number").val();navigator.clipboard.writeText(t),alert("Đã sao chép")})});
