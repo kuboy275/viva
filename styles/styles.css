@@ -5,6 +5,71 @@
   --second-color: #FF0000;
   --base-site-font: 'Roboto', sans-serif; }
 
+.form-reused {
+  padding: 50px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04); }
+  @media (max-width: 576px) {
+    .form-reused {
+      padding: 30px 15px; } }
+  @media (min-width: 1200px) {
+    .form-reused {
+      border-radius: 0 20px 20px 0; } }
+  .form-reused .title__text {
+    color: var(--base-color);
+    font-size: 35px; }
+    @media (max-width: 576px) {
+      .form-reused .title__text {
+        font-size: 22px; } }
+  .form-reused .title__line {
+    width: 100px;
+    height: 2px;
+    margin-inline: auto;
+    margin-block: 15px;
+    background: var(--base-color); }
+  .form-reused .form-group {
+    margin-bottom: 25px; }
+    .form-reused .form-group .form-text {
+      margin-left: 52px; }
+      @media (max-width: 576px) {
+        .form-reused .form-group .form-text {
+          margin-left: 0; } }
+  .form-reused .form-control {
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 5px !important; }
+    .form-reused .form-control::-webkit-outer-spin-button, .form-reused .form-control::-webkit-inner-spin-button {
+      -webkit-appearance: none; }
+    .form-reused .form-control:focus {
+      border-color: var(--base-color);
+      -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; }
+  .form-reused .input-group-prepend .input-group-text {
+    background: none;
+    border-radius: 0;
+    border: none; }
+    .form-reused .input-group-prepend .input-group-text i {
+      font-size: 24px;
+      width: 24px;
+      color: var(--base-color); }
+    @media (max-width: 576px) {
+      .form-reused .input-group-prepend .input-group-text {
+        padding-inline: 0 5px; }
+        .form-reused .input-group-prepend .input-group-text i {
+          width: 20px;
+          font-size: 20px; } }
+  .form-reused button[type="submit"] {
+    display: block;
+    padding: 12px 30px;
+    font-weight: 500;
+    border-radius: 8px;
+    width: 200px;
+    margin: auto;
+    -webkit-box-shadow: rgba(247, 122, 0, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(247, 122, 0, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    font-size: 20px; }
+
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -70,3 +135,34 @@ footer {
   background: var(--second-color); }
   .second-btn:hover {
     color: white; }
+
+.register {
+  padding-block: 80px; }
+  @media (max-width: 576px) {
+    .register {
+      padding-block: 40px; } }
+  @media (max-width: 992px) {
+    .register .container {
+      max-width: 100%; } }
+  @media (min-width: 1200px) {
+    .register .account-banner img {
+      border-radius: 20px 0 0 20px; } }
+  @media (max-width: 992px) {
+    .register .account-banner img {
+      height: 300px !important;
+      margin-bottom: 30px; } }
+
+@media (min-width: 1200px) {
+  .login-page .wrapper {
+    height: 100vh;
+    max-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; } }
