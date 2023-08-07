@@ -78,14 +78,14 @@ body {
   font-family: var(--base-site-font); }
 
 .header {
-  margin-block: 6px; }
+  margin-block: 12px; }
   .header .container-fluid {
     padding-inline: 8px; }
   .header .nav {
     gap: 15px; }
     .header .nav__logo img {
-      width: 200px;
-      height: 50px; }
+      width: 220px;
+      height: 60px; }
       @media (max-width: 1200px) {
         .header .nav__logo img {
           width: 140px;
@@ -98,7 +98,7 @@ body {
           width: 100%; } }
     .header .nav__login .btn {
       max-width: 120px;
-      height: 36px;
+      height: 40px;
       padding-inline: 12px;
       font-size: 14px;
       display: -webkit-box;
@@ -110,6 +110,9 @@ body {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center; }
+      @media (max-width: 992px) {
+        .header .nav__login .btn {
+          height: 36px; } }
       @media (max-width: 576px) {
         .header .nav__login .btn {
           line-height: 1.15;
