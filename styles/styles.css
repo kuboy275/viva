@@ -284,6 +284,9 @@ footer {
   .transfer-page .transfer-about .about-item .content h6 {
     color: var(--primary-color); }
 
+.account-form .account-banner img {
+  max-height: 300px; }
+
 .account-form .box-title {
   background: var(--primary-color);
   border-radius: 5px 5px 0 0;
@@ -317,8 +320,8 @@ footer {
     padding-block: 20px; }
     @media (max-width: 576px) {
       .account-form .account-info .list-group .list-group-item {
-        font-size: 18px;
-        padding-block: 15px; } }
+        font-size: 16px;
+        padding: 12px; } }
     .account-form .account-info .list-group .list-group-item:hover {
       background: var(--base-color);
       color: white; }
@@ -346,6 +349,11 @@ footer {
     .account-form .account-info .list-group .list-group-item.value i {
       font-size: 22px;
       width: 24px; }
+    @media (max-width: 576px) {
+      .account-form .account-info .list-group .list-group-item.value {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        row-gap: 10px; } }
 
 .support-page .support-banner {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(24, 45, 78, 0.8))), url("../images/support-banner-1.png");
