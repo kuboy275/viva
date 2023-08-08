@@ -283,3 +283,17 @@ footer {
       margin-bottom: 30px; } }
   .transfer-page .transfer-about .about-item .content h6 {
     color: var(--primary-color); }
+
+.account-form .box-title {
+  background: var(--primary-color);
+  border-radius: 5px;
+  padding: 20px 25px;
+  text-align: center; }
+  .account-form .box-title h2 {
+    color: white;
+    font-size: 22px; }
+  .account-form .box-title .line {
+    width: 100px;
+    height: 2px;
+    margin-inline: auto;
+    background: white; }
