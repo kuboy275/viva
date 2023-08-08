@@ -286,7 +286,7 @@ footer {
 
 .account-form .box-title {
   background: var(--primary-color);
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
   padding: 20px 25px;
   text-align: center; }
   .account-form .box-title h2 {
@@ -297,3 +297,103 @@ footer {
     height: 2px;
     margin-inline: auto;
     background: white; }
+
+.account-form .account-info .list-group {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+  .account-form .account-info .list-group .list-group-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: var(--base-color);
+    border-color: var(--base-color);
+    background: white;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    font-size: 20px;
+    padding-block: 20px; }
+    @media (max-width: 576px) {
+      .account-form .account-info .list-group .list-group-item {
+        font-size: 18px;
+        padding-block: 15px; } }
+    .account-form .account-info .list-group .list-group-item:hover {
+      background: var(--base-color);
+      color: white; }
+    .account-form .account-info .list-group .list-group-item.link-redirect i {
+      font-size: 22px;
+      width: 24px; }
+    .account-form .account-info .list-group .list-group-item.link-redirect a {
+      width: 100%;
+      color: inherit;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      text-decoration: none;
+      font-weight: 500;
+      margin-left: 8px; }
+    .account-form .account-info .list-group .list-group-item.value label {
+      margin-bottom: 0;
+      font-weight: 500; }
+    .account-form .account-info .list-group .list-group-item.value i {
+      font-size: 22px;
+      width: 24px; }
+
+.support-page .support-banner {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(24, 45, 78, 0.8))), url("../images/support-banner-1.png");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(24, 45, 78, 0.8)), url("../images/support-banner-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .support-page .support-banner .title {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px; }
+    @media (max-width: 576px) {
+      .support-page .support-banner .title {
+        font-size: 22px; } }
+  .support-page .support-banner .line {
+    width: 100px;
+    height: 2px;
+    margin-inline: auto;
+    margin-block: 10px;
+    background: white; }
+
+.support-page .support-content .menu-list {
+  position: sticky;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  top: 20px; }
+  @media (max-width: 576px) {
+    .support-page .support-content .menu-list {
+      margin-top: 40px; } }
+  .support-page .support-content .menu-list li.active {
+    background-color: var(--base-color); }
+    .support-page .support-content .menu-list li.active a {
+      color: white; }
+  .support-page .support-content .menu-list li a {
+    color: var(--base-color); }
